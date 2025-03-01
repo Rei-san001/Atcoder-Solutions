@@ -9,11 +9,12 @@ int main()
     vector<int> syllables = {A, B, C};
     vector<int> haikupattern = {5, 5, 7};
 
-    sort(syllables.begin(), syllables.end());
+    sort(syllables.begin(), syllables.end()); //to sort the given input
 
     if(syllables == haikupattern){
         cout<<"YES";
     }
+        
     else
         cout<<"NO";
 }
